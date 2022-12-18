@@ -1,25 +1,37 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControls : ProjectBehavior
 {
-    float controlSpeed = 30f;
-    float clampXRange = 10f;
-    float clampYRange = 9f;
+    [Header("General Setup Settings")]
+    [Tooltip("How fast the playership moves up and down based on the players input.")]
+    [SerializeField] float controlSpeed = 30f;
+    [Tooltip("How far the ship can move away from the center of the screen on the X-axis. In unity units.")]
+    [SerializeField] float clampXRange = 13f;
+    [Tooltip("How far the ship can move away from the center of the screen on the Y-axis. In unity units.")]
+    [SerializeField] float clampYRange = 11.5f;
+    
+    [Header("Laser gun array")]
+    [Tooltip("All the player lazers(shooters).")]
+    [SerializeField] GameObject[] lazers;
 
-    float xThrow;
-    float yThrow;
+    [Header("Screen position based tuning")]
+    [SerializeField] float positionPitchFactor = -2f;
+    [SerializeField] float positionYawFactor = 2f;
 
-    float positionPitchFactor = -2f;
-    float controlPitchFactor = -20f;
-    float positionYawFactor = 2f;
-    float controllRollFactor = -30f;
+    [Header("Player input based tuning")]
+    [SerializeField] float controlPitchFactor = -20f;
+    [SerializeField] float controllRollFactor = -30f;
+
+    float xThrow, yThrow;
 
     void Update()
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     void ProcessTranslation()
@@ -44,5 +56,26 @@ public class PlayerControls : ProjectBehavior
         float yaw = transform.localPosition.x * positionYawFactor;
         float roll = xThrow * controllRollFactor;
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+    }
+
+    void ProcessFiring()
+    {
+        if (Input.GetButton("Fire1") == true)
+        {
+            SetLazersActive(true);
+        }
+        else
+        {
+            SetLazersActive(false);
+        }
+    }
+
+    void SetLazersActive(bool isActive)
+    {
+        foreach (GameObject lazer in lazers)
+        {
+            var emissionModule = lazer.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = isActive;
+        }
     }
 }
