@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c37fa8b0487df04408da5c9fbcbc2c91
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - EnemyDeathExplosion: {fileID: 3653057112314389060, guid: 9cb8a329c6a6bc543996987af3f2e137,
+      type: 3}
+  - EnemyHitExplosion: {fileID: 1386994443002067614, guid: 8adf22417e092c54ba8685246ed09cde,
+      type: 3}
+  - Parent: {instanceID: 0}
+  - scoreBoard: {instanceID: 0}
+  - playerDamage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

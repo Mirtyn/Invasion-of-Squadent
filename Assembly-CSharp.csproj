@@ -56,18 +56,63 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\anEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\SquillorAircraftCarrierScript.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\AimLazersAtTarget.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\AssetsPacks\Shared\Ramps\Runtime\RampAsset.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\AssetsPacks\Shared\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\BigSquillorShipScript.cs" />
+    <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\MediumSquillorShipScript.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\ProjectBehavior.cs" />
     <Compile Include="Assets\AssetsPacks\Shared\Scripts\SimpleCharacterMotor.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\AssetsPacks\Shared\Scripts\AdjustTimeScale.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\Raycast.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\SelfDestruct.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\AssetsPacks\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\AssetsPacks\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\SmallSquillorShipScript.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\SquillorDispatchDroneScript.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\AssetsPacks\StarSparrow\Readme\Readme Files\Scripts\ReadmeStarSparrow.cs" />
-    <Compile Include="Assets\Scripts\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\CollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerControls.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\CollisionHandler.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\AssetsPacks\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerDamage.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ScoreBoard.cs" />
+    <Compile Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsPacks\Trees_WorldSpace_FREE\WorldSpaceTrees_Doc.txt" />
@@ -75,6 +120,8 @@
     <None Include="Assets\AssetsPacks\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\AssetsPacks\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\AssetsPacks\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\AssetsPacks\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets\AssetsPacks\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\AssetsPacks\Trees_WorldSpace_FREE\Shaders\HDRP\HDRP_TreeLeafSwitcher.shader" />
@@ -98,6 +145,7 @@
     <None Include="Assets\AssetsPacks\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\AssetsPacks\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\AssetsPacks\Trees_WorldSpace_FREE\Shaders\HDRP\HDRP_BarkSwitch.shader" />
+    <None Include="Assets\AssetsPacks\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

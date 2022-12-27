@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2863459987407888000}
   - component: {fileID: 4442212723141311842}
   - component: {fileID: 7645881950084009309}
+  - component: {fileID: 808400673841122234}
   - component: {fileID: 2910124175379035762}
   - component: {fileID: 7370303856943564741}
   m_Layer: 0
@@ -130,6 +131,19 @@ MonoBehaviour:
   Explosion3: {fileID: 8736723861570394790}
   BiggestExplosion: {fileID: 3101354104250366754}
   ExplodeCamParticle: {fileID: 0}
+--- !u!114 &808400673841122234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2876767437891270962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7d812e178df6a419937f7e595156e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _PlayerDamage: 40
 --- !u!65 &2910124175379035762
 BoxCollider:
   m_ObjectHideFlags: 0
