@@ -32,6 +32,7 @@ public class PlayerControls : ProjectBehavior
         ProcessTranslation();
         ProcessRotation();
         ProcessFiring();
+        ProcessQuiting();
     }
 
     void ProcessTranslation()
@@ -76,6 +77,14 @@ public class PlayerControls : ProjectBehavior
         {
             var emissionModule = lazer.GetComponent<ParticleSystem>().emission;
             emissionModule.enabled = isActive;
+        }
+    }
+
+    void ProcessQuiting()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
         }
     }
 }
